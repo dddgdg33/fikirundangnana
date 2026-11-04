@@ -1,0 +1,58 @@
+
+/* Unique theme styling for premium-flara */
+:root {
+  --theme-bg: #fff1f2 !important;
+  --theme-card-bg: #ffffff !important;
+  --theme-text: #881337 !important;
+  --theme-subtext: #9f1239 !important;
+  --theme-accent: #e11d48 !important;
+  --theme-border: #fecdd3 !important;
+}
+
+body {
+  background-color: #fff1f2 !important;
+  color: #881337 !important;
+}
+
+.elementor-element {
+  --e-global-color-primary: #e11d48 !important;
+  --e-global-color-secondary: #881337 !important;
+}
+
+/* Headings & Texts */
+.elementor-heading-title, h1, h2, h3, h4, p, span {
+  color: #881337 !important;
+}
+
+.elementor-heading-title[data-template-couple] {
+  color: #e11d48 !important;
+  letter-spacing: 2px !important;
+}
+
+/* Section cards */
+.elementor-section, .e-con-boxed, .elementor-element-box {
+  border-color: #fecdd3 !important;
+}
+
+/* Buttons */
+.elementor-button, .elementor-button:hover, #submit-formRSVP, .wdp-form-button {
+  background-color: #e11d48 !important;
+  color: #ffffff !important;
+  border-color: #e11d48 !important;
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+}
+
+/* Badges */
+.theme-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #e11d48;
+  color: #ffffff !important;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}

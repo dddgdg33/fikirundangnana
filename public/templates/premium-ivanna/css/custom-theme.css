@@ -1,0 +1,58 @@
+
+/* Unique theme styling for premium-ivanna */
+:root {
+  --theme-bg: #022c22 !important;
+  --theme-card-bg: #064e3b !important;
+  --theme-text: #f0fdf4 !important;
+  --theme-subtext: #d1fae5 !important;
+  --theme-accent: #fbbf24 !important;
+  --theme-border: #047857 !important;
+}
+
+body {
+  background-color: #022c22 !important;
+  color: #f0fdf4 !important;
+}
+
+.elementor-element {
+  --e-global-color-primary: #fbbf24 !important;
+  --e-global-color-secondary: #f0fdf4 !important;
+}
+
+/* Headings & Texts */
+.elementor-heading-title, h1, h2, h3, h4, p, span {
+  color: #f0fdf4 !important;
+}
+
+.elementor-heading-title[data-template-couple] {
+  color: #fbbf24 !important;
+  letter-spacing: 2px !important;
+}
+
+/* Section cards */
+.elementor-section, .e-con-boxed, .elementor-element-box {
+  border-color: #047857 !important;
+}
+
+/* Buttons */
+.elementor-button, .elementor-button:hover, #submit-formRSVP, .wdp-form-button {
+  background-color: #fbbf24 !important;
+  color: #ffffff !important;
+  border-color: #fbbf24 !important;
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+}
+
+/* Badges */
+.theme-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #fbbf24;
+  color: #ffffff !important;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}

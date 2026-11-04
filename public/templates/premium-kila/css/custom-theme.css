@@ -1,0 +1,58 @@
+
+/* Unique theme styling for premium-kila */
+:root {
+  --theme-bg: #fafaf9 !important;
+  --theme-card-bg: #ffffff !important;
+  --theme-text: #1c1917 !important;
+  --theme-subtext: #57534e !important;
+  --theme-accent: #78716c !important;
+  --theme-border: #e7e5e4 !important;
+}
+
+body {
+  background-color: #fafaf9 !important;
+  color: #1c1917 !important;
+}
+
+.elementor-element {
+  --e-global-color-primary: #78716c !important;
+  --e-global-color-secondary: #1c1917 !important;
+}
+
+/* Headings & Texts */
+.elementor-heading-title, h1, h2, h3, h4, p, span {
+  color: #1c1917 !important;
+}
+
+.elementor-heading-title[data-template-couple] {
+  color: #78716c !important;
+  letter-spacing: 2px !important;
+}
+
+/* Section cards */
+.elementor-section, .e-con-boxed, .elementor-element-box {
+  border-color: #e7e5e4 !important;
+}
+
+/* Buttons */
+.elementor-button, .elementor-button:hover, #submit-formRSVP, .wdp-form-button {
+  background-color: #78716c !important;
+  color: #ffffff !important;
+  border-color: #78716c !important;
+  border-radius: 9999px !important;
+  font-weight: 600 !important;
+}
+
+/* Badges */
+.theme-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  background: #78716c;
+  color: #ffffff !important;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}

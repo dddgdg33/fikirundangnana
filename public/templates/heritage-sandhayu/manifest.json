@@ -1,0 +1,1389 @@
+{
+  "name": "heritage-sandhayu",
+  "url": "https://attarivitation.com/demo-heritage-series-sandhayu-v2/",
+  "resources": [
+    {
+      "url": "https://attarivitation.com/wp-content/themes/hello-elementor/theme.min.css?ver=3.1.1",
+      "file": "css\\theme.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5146
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/wpforms-lite/assets/css/frontend/modern/wpforms-full.min.css?ver=1.10.2",
+      "file": "css\\wpforms-full.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 167602
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/wdp.css?ver=3.2.1.4",
+      "file": "css\\wdp.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 13218
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/guest-book.css?ver=3.2.1.4",
+      "file": "css\\guest-book.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 221108
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/pinyonscript.css?ver=1744919483",
+      "file": "css\\pinyonscript.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1417
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=3.35.0",
+      "file": "css\\widget-social-icons.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5110
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-324522.css?ver=1792538250",
+      "file": "css\\post-324522.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 276169
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/cormorant.css?ver=1744919568",
+      "file": "css\\cormorant.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 20935
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/modules/bdt-uikit.css?ver=3.15.1",
+      "file": "css\\bdt-uikit.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 94596
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/useanyfont/uaf.css?ver=1782165169",
+      "file": "css\\uaf.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 19240
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/modules/ep-helper.css?ver=3.2.1.4",
+      "file": "css\\ep-helper.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 38644
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.1.1",
+      "file": "css\\header-footer.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 7212
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.35.0",
+      "file": "css\\frontend.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 54666
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//css/cui_style.css?ver=1.0.0",
+      "file": "css\\cui_style.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 54874
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/all-in-one-seo-pack/dist/Lite/assets/css/table-of-contents/global.e90f6d47.css?ver=4.9.8",
+      "file": "css\\global.e90f6d47.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1487
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.47.0",
+      "file": "css\\elementor-icons.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 21641
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/themes/hello-elementor/style.min.css?ver=3.1.1",
+      "file": "css\\style.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5501
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/lora.css?ver=1744919625",
+      "file": "css\\lora.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 39552
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
+      "file": "css\\fontawesome.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 58071
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/wdp-copy-widget.css?ver=3.2.1.4",
+      "file": "css\\wdp-copy-widget.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 2122
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-grow.min.css?ver=3.35.0",
+      "file": "css\\e-animation-grow.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 198
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/montserrat.css?ver=1744919476",
+      "file": "css\\montserrat.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 37962
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=3.35.0",
+      "file": "css\\apple-webkit.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 6713
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/inter.css?ver=1744919479",
+      "file": "css\\inter.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 50085
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744919474",
+      "file": "css\\poppins.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 16800
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/icon-element/assets/material-icons/css/material-icons.css?ver=3.0.1",
+      "file": "css\\material-icons.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 61847
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/fonts/style.min.css?ver=3.22.0",
+      "file": "css\\style.min_637fede86a.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 27324
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
+      "file": "css\\solid.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 669
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/fonts/huge-icons/huge-icons.min.css?ver=3.22.0",
+      "file": "css\\huge-icons.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 170232
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/new-icon.min.css?ver=3.2.1.4",
+      "file": "css\\new-icon.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 14739
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-7.css?ver=1792527167",
+      "file": "css\\post-7.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 2616
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=3.35.0",
+      "file": "css\\fadeInRight.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 139
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.35.0",
+      "file": "css\\all.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 59344
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/css/min/tooltip.min.css?ver=2.13.4",
+      "file": "css\\tooltip.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5773
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/css/min/extensions.min.css?ver=2.13.4",
+      "file": "css\\extensions.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1113
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.35.0",
+      "file": "css\\fadeInUp.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 130
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.35.0",
+      "file": "css\\v4-shims.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 26702
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.35.0",
+      "file": "css\\widget-heading.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 560
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=3.35.0",
+      "file": "css\\fadeIn.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 77
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/font-awesome.min.css?ver=4.7.0",
+      "file": "css\\font-awesome.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 30999
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/bitter.css?ver=1744919538",
+      "file": "css\\bitter.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 36783
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/css/exad-styles.min.css?ver=7.1.3",
+      "file": "css\\exad-styles.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 6236
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.35.0",
+      "file": "css\\widget-image.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 214
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
+      "file": "css\\brands.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 675
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3",
+      "file": "css\\regular.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 677
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.35.0",
+      "file": "css\\widget-icon-list.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 10255
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInLeft.min.css?ver=3.35.0",
+      "file": "css\\fadeInLeft.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 137
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=3.35.0",
+      "file": "css\\zoomIn.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 106
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.35.0",
+      "file": "css\\sticky.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 162
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.35.0",
+      "file": "css\\widget-spacer.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1793
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=3.35.0",
+      "file": "css\\e-animation-shrink.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 205
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/css/min/widget-timeline.min.css?ver=2.13.4",
+      "file": "css\\widget-timeline.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 8386
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.35.0",
+      "file": "css\\fadeInDown.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 137
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/widget-countdown.min.css?ver=3.35.0",
+      "file": "css\\widget-countdown.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1265
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomInRight.min.css?ver=3.35.0",
+      "file": "css\\zoomInRight.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 323
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-video.min.css?ver=3.35.0",
+      "file": "css\\widget-video.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 1243
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=3.35.0",
+      "file": "css\\widget-icon-box.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 4726
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
+      "file": "css\\swiper.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 16471
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.35.0",
+      "file": "css\\e-swiper.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5486
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=3.35.0",
+      "file": "css\\widget-gallery.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5946
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=3.35.0",
+      "file": "css\\transitions.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 7256
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0",
+      "file": "css\\e-gallery.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 3303
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/widget-form.min.css?ver=3.35.0",
+      "file": "css\\widget-form.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 6798
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Bagas-Naila-LIBLOP-PICTURE-2630245.webp",
+      "file": "images\\Bagas-Naila-LIBLOP-PICTURE-2630245.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 61484
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Illustrasi-01-Orn-3-1024x912.webp",
+      "file": "images\\Illustrasi-01-Orn-3-1024x912.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 215954
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Illustrasi-Orn.webp",
+      "file": "images\\Illustrasi-Orn.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 27362
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.35.0",
+      "file": "js\\v4-shims.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 15073
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "file": "js\\jquery-migrate.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 13577
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/vendor/dom-purify/purify.min.js?ver=3.1.6",
+      "file": "js\\purify.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 22305
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "file": "js\\jquery.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 87553
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js",
+      "file": "js\\qrcode.min.js",
+      "type": "script",
+      "content_type": "application/javascript; charset=utf-8",
+      "size": 19927
+    },
+    {
+      "url": "https://html2canvas.hertzen.com/dist/html2canvas.min.js",
+      "file": "js\\html2canvas.min.js",
+      "type": "script",
+      "content_type": "application/javascript; charset=utf-8",
+      "size": 198689
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/extensions-for-elementor-form/assets/css/style.min.css?ver=2.7.3",
+      "file": "css\\style.min_ac7f7db5f3.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 66
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-243103.css?ver=1792529931",
+      "file": "css\\post-243103.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 2203
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+      "file": "js\\vce701823e78c4301a35b7e07294d87301792088814092.bin",
+      "type": "script",
+      "content_type": "text/javascript;charset=UTF-8",
+      "size": 31853
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/widget-lottie.min.css?ver=3.35.0",
+      "file": "css\\widget-lottie.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 547
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-322331.css?ver=1792529932",
+      "file": "css\\post-322331.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 5488
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-321820.css?ver=1792529932",
+      "file": "css\\post-321820.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 12220
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=3.35.0",
+      "file": "css\\popup.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 995
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.35.0",
+      "file": "css\\widget-divider.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 4258
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/icon-element/assets/metrize/metrize.css?ver=3.0.1",
+      "file": "css\\metrize.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 15576
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/cormorantgaramond.css?ver=1744919934",
+      "file": "css\\cormorantgaramond.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 22385
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/css/post-324241.css?ver=1792538251",
+      "file": "css\\post-324241.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 10704
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/css/abhayalibre.css?ver=1744919933",
+      "file": "css\\abhayalibre.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 6648
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Wedding-Souvenir-e1770784014924.webp",
+      "file": "images\\Heritage-Wedding-Souvenir-e1770784014924.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 644644
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Background-Home.webp",
+      "file": "images\\Heritage-Background-Home.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 906908
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Sandhayu-IMG_6435-1-e1771656736942.webp",
+      "file": "images\\Heritage-Sandhayu-IMG_6435-1-e1771656736942.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 143098
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-BG.webp",
+      "file": "images\\Heritage-BG.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 136970
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Sandhayu-IMG_6436.webp",
+      "file": "images\\Heritage-Sandhayu-IMG_6436.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 168382
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Sandhayu-IMG_6437.webp",
+      "file": "images\\Heritage-Sandhayu-IMG_6437.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 102872
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Sandhayu-IMG_6442.webp",
+      "file": "images\\Heritage-Sandhayu-IMG_6442.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 200488
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/cui_script.js?ver=1.0.0",
+      "file": "js\\cui_script.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 36371
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255",
+      "file": "js\\hooks.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 5107
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/qr-code.js",
+      "file": "js\\qr-code.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 14106
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/escape-html.min.js?ver=87ebe53e97bba59805a5",
+      "file": "js\\escape-html.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 1158
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.jPages.min.js?ver=0.7",
+      "file": "js\\jquery.jPages.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 13133
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.placeholder.min.js?ver=2.0.7",
+      "file": "js\\jquery.placeholder.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2162
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/autosize.min.js?ver=1.14",
+      "file": "js\\autosize.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 3193
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/exad-scripts.min.js?ver=3.2.1.4",
+      "file": "js\\exad-scripts.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2931
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/addons/comment-kit2//js/libs/jquery.textareaCounter.js?ver=2.0",
+      "file": "js\\jquery.textareaCounter.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 5021
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/element.min.js?ver=4a4370b2b349066fd440",
+      "file": "js\\element.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 12468
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.35.0",
+      "file": "js\\webpack.runtime.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 5677
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1",
+      "file": "js\\react.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 10751
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/js/extension-reading-progress-bar.min.js?ver=3.22.0",
+      "file": "js\\extension-reading-progress-bar.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 1359
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/jquery/ui/core.min.js?ver=1.14.2",
+      "file": "js\\core.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 18674
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216",
+      "file": "js\\i18n.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 5791
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.1.1",
+      "file": "js\\hello-frontend.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2749
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/wdp-copy-widget.js?ver=3.2.1.4",
+      "file": "js\\wdp-copy-widget.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 3950
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/wdp-swiper.min.js",
+      "file": "js\\wdp-swiper.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 140569
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/extensions-for-elementor-form/assets/js/frontend-scripts.min.js?ver=2.7.3",
+      "file": "js\\frontend-scripts.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 703
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0",
+      "file": "js\\e-gallery.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 15347
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/js/min/frontend-timeline.min.js?ver=2.13.4",
+      "file": "js\\frontend-timeline.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 11007
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.35.0",
+      "file": "js\\jquery.sticky.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 3721
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/js/happy-addons.min.js?ver=3.22.0",
+      "file": "js\\happy-addons.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 32316
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.35.0",
+      "file": "js\\webpack-pro.runtime.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 6248
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.35.0",
+      "file": "js\\frontend-modules.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 50503
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1",
+      "file": "js\\react-dom.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 131835
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/wdp.min.js?ver=3.2.1.4",
+      "file": "js\\wdp.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 11351
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.35.0",
+      "file": "js\\frontend.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 24047
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.35.0",
+      "file": "js\\frontend.min_2464e81935.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 31880
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.35.0",
+      "file": "js\\elements-handlers.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 44258
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5",
+      "file": "js\\swiper.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 143709
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/guest-form.js?ver=3.2.1.4",
+      "file": "js\\guest-form.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 87139
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/lib/lottie/lottie.min.js?ver=5.6.6",
+      "file": "js\\lottie.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 252588
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/modules/bdt-uikit.js?ver=3.15.1",
+      "file": "js\\bdt-uikit.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 249152
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/js/min/frontend-tooltip.min.js?ver=2.13.4",
+      "file": "js\\frontend-tooltip.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2475
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/weddingpress/assets/js/license.min.js?ver=3.2.1.4",
+      "file": "js\\license.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 373074
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/powerpack-elements/assets/lib/tooltipster/tooltipster.min.js?ver=2.13.4",
+      "file": "js\\tooltipster.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 40063
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js",
+      "file": "js\\xlsx.full.min.js",
+      "type": "script",
+      "content_type": "application/javascript; charset=utf-8",
+      "size": 935844
+    },
+    {
+      "url": "https://unpkg.com/qr-code-styling@1.5.0/lib/qr-code-styling.js",
+      "file": "js\\qr-code-styling.js",
+      "type": "script",
+      "content_type": "text/javascript; charset=utf-8",
+      "size": 65614
+    },
+    {
+      "url": "https://code.jquery.com/jquery-3.6.0.min.js",
+      "file": "js\\jquery-3.6.0.min.js",
+      "type": "script",
+      "content_type": "application/javascript; charset=utf-8",
+      "size": 89501
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Amplop-scaled-1-1024x711.webp",
+      "file": "images\\Heritage-Amplop-scaled-1-1024x711.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 14986
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Stamp-1024x1024.webp",
+      "file": "images\\Heritage-Stamp-1024x1024.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 157928
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Frame-scaled-1-670x1024.webp",
+      "file": "images\\Heritage-Frame-scaled-1-670x1024.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 85246
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Engraving-2.webp",
+      "file": "images\\Heritage-Engraving-2.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 63816
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower-5.webp",
+      "file": "images\\Heritage-Flower-5.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 43666
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Stamp-2-1024x1024.webp",
+      "file": "images\\Heritage-Stamp-2-1024x1024.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 213314
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower-6.webp",
+      "file": "images\\Heritage-Flower-6.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 89850
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Tree.webp",
+      "file": "images\\Heritage-Tree.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 101426
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower.webp",
+      "file": "images\\Heritage-Flower.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 50764
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Engraving-3.webp",
+      "file": "images\\Heritage-Engraving-3.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 107330
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Kupu.webp",
+      "file": "images\\Heritage-Kupu.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 9116
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower-2.webp",
+      "file": "images\\Heritage-Flower-2.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 25832
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower-1.webp",
+      "file": "images\\Heritage-Flower-1.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 21400
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Flower-3.webp",
+      "file": "images\\Heritage-Flower-3.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 3332
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/Heritage-Frame-2-scaled-1-922x1024.webp",
+      "file": "images\\Heritage-Frame-2-scaled-1-922x1024.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 119366
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/fonts/pinyonscript-6xkpdsjbl9-e9luoeqidrqr8woxaog.woff2",
+      "file": "fonts\\pinyonscript-6xkpdsjbl9-e9luoeqidrqr8woxaog.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 39148
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-brands-400.woff2",
+      "file": "fonts\\fa-brands-400.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 81612
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2",
+      "file": "fonts\\fa-regular-400.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 13276
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/fonts/lora-0qivmx1d_joumwr7iw.woff2",
+      "file": "fonts\\lora-0qivmx1d_joumwr7iw.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 37764
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/fonts/lora-0qihmx1d_joumw_liftl.woff2",
+      "file": "fonts\\lora-0qihmx1d_joumw_liftl.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 40780
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2024/08/NewYork-Webfont.woff2",
+      "file": "fonts\\NewYork-Webfont.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 22820
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-solid-900.woff2",
+      "file": "fonts\\fa-solid-900.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 78196
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-JCTGGGM02K",
+      "file": "js\\js.bin",
+      "type": "script",
+      "content_type": "application/javascript; charset=UTF-8",
+      "size": 541467
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "file": "js\\fbevents.js",
+      "type": "script",
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 437141
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/happy-elementor-addons/assets/fonts/huge-icons/huge-icons.woff2",
+      "file": "fonts\\huge-icons.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 569672
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/useanyfont/8543Belgiano-Serif.woff2",
+      "file": "fonts\\8543Belgiano-Serif.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 24020
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/elementor/google-fonts/fonts/cormorant-h4clbxocl9bbnla_nhiq75u9.woff2",
+      "file": "fonts\\cormorant-h4clbxocl9bbnla_nhiq75u9.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 32316
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2025/07/Video-Slide-Wedding-Frame.webm",
+      "file": "videos\\Video-Slide-Wedding-Frame.webm",
+      "type": "media",
+      "content_type": "video/webm",
+      "size": 2046509
+    },
+    {
+      "url": "https://byattari.com/wp-content/uploads/2026/02/Heritage-Sandhayu-IMG_6438.webp",
+      "file": "images\\Heritage-Sandhayu-IMG_6438.webp",
+      "type": "image",
+      "content_type": "image/webp",
+      "size": 271758
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/conditionals/dialog.min.css?ver=3.35.0",
+      "file": "css\\dialog.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 16528
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/css/conditionals/lightbox.min.css?ver=3.35.0",
+      "file": "css\\lightbox.min.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 11291
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.35.0",
+      "file": "js\\share-link.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2752
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3",
+      "file": "js\\dialog.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 11622
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/lightbox.d1799e507b570f6b0496.bundle.min.js",
+      "file": "js\\lightbox.d1799e507b570f6b0496.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 28829
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+      "file": "js\\shared-frontend-handlers.03caa53373b56d3bab67.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 8481
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/text-editor.45609661e409413f1cef.bundle.min.js",
+      "file": "js\\text-editor.45609661e409413f1cef.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 1348
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/countdown.0e9e688751d29d07a8d3.bundle.min.js",
+      "file": "js\\countdown.0e9e688751d29d07a8d3.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 2688
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor/assets/js/video.86d44e46e43d0807e708.bundle.min.js",
+      "file": "js\\video.86d44e46e43d0807e708.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 3223
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/gallery.06be1c07b9901f53d709.bundle.min.js",
+      "file": "js\\gallery.06be1c07b9901f53d709.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 5913
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/popup.f7b15b2ca565b152bf98.bundle.min.js",
+      "file": "js\\popup.f7b15b2ca565b152bf98.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 752
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/plugins/elementor-pro/assets/js/form.71055747203b48a65a24.bundle.min.js",
+      "file": "js\\form.71055747203b48a65a24.bundle.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 19776
+    },
+    {
+      "url": "blob:https://attarivitation.com/d0c9b9a4-bfd9-475f-912d-0d8472607f4b",
+      "file": "js\\d0c9b9a4-bfd9-475f-912d-0d8472607f4b.bin",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 1327
+    },
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/useanyfont/3858Neutica.woff2",
+      "file": "fonts\\3858Neutica.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 69228
+    },
+    {
+      "url": "https://www.youtube.com/iframe_api?_wdp_nonce=bbbc77e0a7",
+      "file": "js\\iframe_api.bin",
+      "type": "script",
+      "content_type": "text/javascript; charset=utf-8",
+      "size": 993
+    },
+    {
+      "url": "https://attarivitation.com/wp-includes/js/wp-emoji-release.min.js?ver=7.1.3",
+      "file": "js\\wp-emoji-release.min.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 22752
+    },
+    {
+      "url": "https://www.youtube.com/s/player/6b2fce74/www-widgetapi.vflset/www-widgetapi.js",
+      "file": "js\\www-widgetapi.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 27034
+    },
+    {
+      "url": "https://connect.facebook.net/signals/plugins/openbridge3.js?v=2.9.429",
+      "file": "js\\openbridge3.js",
+      "type": "script",
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 181931
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/2567729760057425?v=2.9.429&r=stable&domain=attarivitation.com&hme=e7a5ac71fbf0293a48c0a6b6de35ad61286effa29f2279ff1fce9a756cccd512&ex_m=118%2C241%2C171%2C27%2C82%2C83%2C162%2C78%2C77%2C11%2C181%2C102%2C20%2C153%2C141%2C46%2C85%2C90%2C149%2C176%2C183%2C8%2C4%2C5%2C7%2C6%2C3%2C103%2C115%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C163%2C87%2C126%2C22%2C24%2C51%2C47%2C49%2C48%2C95%2C104%2C108%2C124%2C160%2C164%2C53%2C125%2C29%2C26%2C133%2C79%2C43%2C166%2C165%2C167%2C157%2C155%2C30%2C42%2C66%2C123%2C178%2C80%2C21%2C128%2C93%2C76%2C23%2C97%2C98%2C130%2C96%2C151%2C150%2C154%2C109%2C177%2C180%2C41%2C56%2C127%2C54%2C161%2C72%2C185%2C110%2C184%2C210%2C255%2C84%2C275%2C274%2C273%2C14%2C25%2C28%2C40%2C62%2C117%2C68%2C10%2C73%2C111%2C112%2C113%2C119%2C144%2C38%2C36%2C146%2C147%2C148%2C143%2C142%2C172%2C86%2C175%2C173%2C174%2C57%2C69%2C67%2C137%2C19%2C179%2C52%2C325%2C326%2C327%2C324%2C341%2C363%2C248%2C237%2C70%2C238%2C236%2C366%2C357%2C59%2C249%2C121%2C145%2C92%2C135%2C61%2C134%2C140%2C139%2C65%2C74%2C168%2C88%2C89%2C129%2C44%2C39%2C60%2C63%2C114%2C182%2C1%2C138%2C16%2C136%2C12%2C2%2C64%2C105%2C15%2C75%2C71%2C132%2C101%2C100%2C187%2C188%2C106%2C107%2C9%2C116%2C186%2C58%2C158%2C99%2C91%2C81%2C131%2C120%2C169%2C50%2C159%2C0%2C94%2C152%2C156%2C170%2C45%2C122%2C13%2C189",
+      "file": "js\\2567729760057425.bin",
+      "type": "script",
+      "content_type": "application/x-javascript; charset=utf-8",
+      "size": 434896
+    },
+    {
+      "url": "https://www.youtube.com/s/player/6b2fce74/www-player.css",
+      "file": "css\\www-player.css",
+      "type": "stylesheet",
+      "content_type": "text/css",
+      "size": 550901
+    },
+    {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.ky1PPkpotFU.L.W.O/am=AAAAQAAwBg/d=1/br=1/rs=AGKMywE3Wwjiwjc_gmJ4jEnm0eGut1LaoQ/m=root,base",
+      "file": "css\\m_root_base.bin",
+      "type": "stylesheet",
+      "content_type": "text/css; charset=UTF-8",
+      "size": 11682
+    },
+    {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.6pNp6a3usfE.es5.O/am=AAAAQAAwBg/d=1/excm=base,root/br=1/rs=AGKMywFLBsra_YD2JFYYIkX92RyI-bXVvQ/m=root,base",
+      "file": "js\\m_root_base.bin",
+      "type": "script",
+      "content_type": "text/javascript; charset=UTF-8",
+      "size": 550442
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "file": "fonts\\KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+      "type": "font",
+      "content_type": "font/woff2",
+      "size": 40128
+    },
+    {
+      "url": "https://www.youtube.com/s/player/6b2fce74/player_embed.vflset/id_ID/base.js",
+      "file": "js\\base.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 1890169
+    },
+    {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.6pNp6a3usfE.es5.O/ck=ytembeds.base.ky1PPkpotFU.L.W.O/am=AAAAQAAwBg/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywE_bu4CCnMbdTtWhY16zY7FwZs6QA/m=r78Drb",
+      "file": "js\\m_r78Drb.bin",
+      "type": "script",
+      "content_type": "text/javascript; charset=UTF-8",
+      "size": 1062314
+    },
+    {
+      "url": "https://static.doubleclick.net/instream/ad_status.js",
+      "file": "js\\ad_status.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 29
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+      "file": "other\\id.bin",
+      "type": "xhr",
+      "content_type": "application/json; charset=UTF-8",
+      "size": 100
+    },
+    {
+      "url": "https://www.youtube.com/youtubei/v1/player?prettyPrint=false",
+      "file": "other\\player.bin",
+      "type": "fetch",
+      "content_type": "application/json; charset=UTF-8",
+      "size": 29821
+    },
+    {
+      "url": "https://www.google.com/js/th/RhCOukr6vuP8scOtrq5AQMAag3l6HzGkBzbJDB83tio.js",
+      "file": "js\\RhCOukr6vuP8scOtrq5AQMAag3l6HzGkBzbJDB83tio.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 63035
+    },
+    {
+      "url": "https://www.youtube.com/s/player/6b2fce74/player_embed.vflset/id_ID/captions.js",
+      "file": "js\\captions.js",
+      "type": "script",
+      "content_type": "text/javascript",
+      "size": 87811
+    },
+    {
+      "url": "https://i.ytimg.com/vi/td0IGa6Wb-Y/sddefault.jpg",
+      "file": "images\\sddefault.jpg",
+      "type": "image",
+      "content_type": "image/jpeg",
+      "size": 16456
+    },
+    {
+      "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "file": "other\\GenerateIT.bin",
+      "type": "xhr",
+      "content_type": "application/json+protobuf; charset=UTF-8",
+      "size": 102
+    },
+    {
+      "url": "https://www.youtube.com/youtubei/v1/next?prettyPrint=false",
+      "file": "other\\next.bin",
+      "type": "fetch",
+      "content_type": "application/json; charset=UTF-8",
+      "size": 36448
+    },
+    {
+      "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.6pNp6a3usfE.es5.O/ck=ytembeds.base.ky1PPkpotFU.L.W.O/am=AAAAQAAwBg/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywE_bu4CCnMbdTtWhY16zY7FwZs6QA/m=Nuilue",
+      "file": "js\\m_Nuilue.bin",
+      "type": "script",
+      "content_type": "text/javascript; charset=UTF-8",
+      "size": 42556
+    },
+    {
+      "url": "https://attarivitation.com/wp-admin/admin-ajax.php?action=get_realtime_comments&post_id=324522&page=1",
+      "file": "other\\admin-ajax.php",
+      "type": "fetch",
+      "content_type": "application/json; charset=UTF-8",
+      "size": 92
+    },
+    {
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+      "file": "other\\log_event.bin",
+      "type": "xhr",
+      "content_type": "application/json; charset=UTF-8",
+      "size": 28
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://attarivitation.com/wp-content/uploads/2026/02/SANDHAYU-SONG-Donkgedank-KASWOSIH-Backsound-Nusantara-Relaxing-Music.mp3",
+      "error": "Response.body: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "url": "https://byattari.com/wp-content/uploads/2026/02/MOTION-SANDHAYU-CUT.mp4",
+      "error": "Response.body: Protocol error (Network.getResponseBody): Request content was evicted from inspector cache\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    }
+  ],
+  "resource_count": 196
+}
