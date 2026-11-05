@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ExternalLink, Eye, Edit, Users, Heart, MessageSquare, Image, CalendarDays, Music2, Gift } from 'lucide-react'
+import { ExternalLink, Eye, Edit, Users, Heart, MessageSquare, Image, CalendarDays, Music2, Gift, MessageCircle } from 'lucide-react'
 import EventWorkspaceLayout from '@/components/layout/EventWorkspaceLayout'
 import { supabase } from '@/lib/supabase'
 import { Event } from '@/types'
@@ -164,6 +164,7 @@ export default function EventWorkspace() {
             { to: `/events/${event.id}/template`, label: 'Template & publikasi', icon: Eye },
             { to: `/events/${event.id}/editor`, label: 'Kutipan & cerita', icon: MessageSquare },
             { to: `/events/${event.id}/guests`, label: 'Daftar tamu', icon: Users },
+            { to: `/events/${event.id}/share-wa`, label: 'Share WhatsApp', icon: MessageCircle },
           ].map(({ to, label, icon: Icon }) => <Link key={to} to={to} className="flex items-center gap-3 rounded-lg border border-gray-200 bg-white p-4 font-medium text-gray-800 shadow-sm hover:border-indigo-300 hover:text-indigo-700"><Icon className="h-5 w-5" />{label}</Link>)}
         </section>
       </div>

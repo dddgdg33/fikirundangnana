@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation, useParams } from 'react-router-dom'
 import { 
   LayoutDashboard, Heart, Calendar, FileText, Image, Music, 
-  Gift, Users, MessageSquare, QrCode, Settings, ArrowLeft, Menu, X 
+  Gift, Users, MessageSquare, QrCode, Settings, ArrowLeft, Menu, X, MessageCircle 
 } from 'lucide-react'
 
 const navigation = [
@@ -18,6 +18,7 @@ const navigation = [
   { name: 'RSVP', href: '/rsvp', icon: Heart },
   { name: 'Ucapan & Doa', href: '/wishes', icon: MessageSquare },
   { name: 'QR Check-in', href: '/checkin', icon: QrCode },
+  { name: 'Share WhatsApp', href: '/share-wa', icon: MessageCircle },
   { name: 'Publikasi', href: '/publish', icon: Settings },
 ]
 

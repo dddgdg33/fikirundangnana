@@ -340,6 +340,17 @@
         form.querySelectorAll('input[type="hidden"][required]').forEach(function (input) {
           input.removeAttribute('required')
         })
+
+        // Auto-fill guest name from URL parameter
+        var urlParams = new URLSearchParams(window.location.search)
+        var guestName = urlParams.get('to')
+        if (guestName) {
+          var nameInput = form.querySelector('[name="form_fields[form_namalengkap]"]')
+          if (nameInput && !nameInput.value) {
+            nameInput.value = guestName
+          }
+        }
+
         form.addEventListener('submit', function (event) {
           var nameInput = form.querySelector('[name="form_fields[form_namalengkap]"]')
           if (!nameInput) return

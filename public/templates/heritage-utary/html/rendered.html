@@ -36,6 +36,22 @@
         </style>
         
 		<script>
+			// Auto-fill guest name from URL parameter in RSVP form
+			(function() {
+				const urlParams = new URLSearchParams(window.location.search);
+				const guestName = urlParams.get('to');
+				if (guestName) {
+					const interval = setInterval(() => {
+						const nameInput = document.querySelector('[name="form_fields[form_namalengkap]"]');
+						if (nameInput && !nameInput.value) {
+							nameInput.value = guestName;
+							clearInterval(interval);
+						}
+					}, 100);
+					setTimeout(() => clearInterval(interval), 3000);
+				}
+			})();
+
 			window.addEventListener('message', (message) => {
 				if (message.source !== window.parent || (message.data?.type !== 'heritage-utary:data' && message.data?.type !== 'invitation:data')) return;
 
