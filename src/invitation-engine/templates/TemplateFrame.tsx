@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import type { InvitationTemplateProps } from '@/invitation-engine/types'
 import { supabase } from '@/lib/supabase'
 
@@ -35,6 +35,25 @@ const DATE_SHORT: Intl.DateTimeFormatOptions = { day: 'numeric', month: 'long', 
 export default function TemplateFrame({ slug, title, event, guestName }: TemplateFrameProps) {
   const frameRef = useRef<HTMLIFrameElement>(null)
   const rsvpInFlight = useRef(false)
+  // Ucapan yang sudah disetujui; null = jangan timpa ucapan demo bawaan template.
+  const [wishes, setWishes] = useState<{ name: string; message: string; created_at: string }[] | null>(null)
+
+  const fetchWishes = useCallback(async () => {
+    if (event.is_demo || !event.id) return
+    const { data, error } = await supabase
+      .from('event_wishes')
+      .select('name, message, created_at')
+      .eq('event_id', event.id)
+      .eq('approved', true)
+      .order('created_at', { ascending: false })
+      .limit(100)
+    if (error) console.error('fetchWishes:', error.message)
+    else setWishes(data ?? [])
+  }, [event.id, event.is_demo])
+
+  useEffect(() => {
+    fetchWishes()
+  }, [fetchWishes])
 
   const sendData = useCallback(() => {
     frameRef.current?.contentWindow?.postMessage(
@@ -51,6 +70,7 @@ export default function TemplateFrame({ slug, title, event, guestName }: Templat
           invitationUrl: window.location.href,
           gallery: [...(event.gallery ?? []), ...(event.prewedding_photos ?? [])].slice(0, 10),
           guestName,
+          ...(wishes ? { wishes } : {}),
           fields: {
             bride_name: event.bride_name,
             bride_nick: event.bride_nick,
@@ -88,7 +108,7 @@ export default function TemplateFrame({ slug, title, event, guestName }: Templat
       },
       '*',
     )
-  }, [event, guestName])
+  }, [event, guestName, wishes])
 
   useEffect(() => {
     sendData()
@@ -139,6 +159,7 @@ export default function TemplateFrame({ slug, title, event, guestName }: Templat
         if (note) {
           const { error: wishError } = await supabase.from('event_wishes').insert({ event_id: event.id, name, message: note })
           if (wishError) wishStatus = ' RSVP tersimpan, tetapi ucapan belum terkirim.'
+          else fetchWishes()
         }
         reply(true, `Konfirmasi kehadiran berhasil dikirim.${wishStatus}`)
       } catch (error) {
@@ -150,7 +171,7 @@ export default function TemplateFrame({ slug, title, event, guestName }: Templat
 
     window.addEventListener('message', handleRsvp)
     return () => window.removeEventListener('message', handleRsvp)
-  }, [event.id, event.is_demo])
+  }, [event.id, event.is_demo, fetchWishes])
 
   useEffect(() => {
     const handleReady = (message: MessageEvent) => {

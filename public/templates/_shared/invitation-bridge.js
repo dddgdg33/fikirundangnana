@@ -83,6 +83,62 @@
   } catch (e) {}
   if (_elementorProFrontendConfig) patchElementorConfig(_elementorProFrontendConfig);
 
+
+  // Buku tamu: template bawaan memuat ucapan lewat WordPress admin-ajax.php yang
+  // tidak ada di situs ini (respons HTML -> "Unexpected token '<'"). Permintaan itu
+  // dijawab lokal memakai ucapan yang dikirim aplikasi induk (payload.wishes).
+  var currentWishes = null
+
+  function escapeHtml(value) {
+    return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    })
+  }
+
+  function formatWishTime(value) {
+    var date = new Date(value)
+    if (isNaN(date.getTime())) return ''
+    try {
+      return new Intl.DateTimeFormat('id-ID', { day: 'numeric', month: 'long', year: 'numeric' }).format(date)
+    } catch (error) {
+      return date.toDateString()
+    }
+  }
+
+  function wishesHtml(wishes) {
+    if (!wishes.length) {
+      return '<ul class="realtime-comment-list"><li><div class="comment-message">Belum ada ucapan. Jadilah yang pertama mengirim doa dan ucapan.</div></li></ul>'
+    }
+    return '<ul class="realtime-comment-list">' + wishes.map(function (wish) {
+      return '<li><div class="comment-name">' + escapeHtml(wish.name) + '</div>' +
+        '<div class="comment-message">' + escapeHtml(wish.message).replace(/\n/g, '<br>') + '</div>' +
+        '<div class="comment-time">' + escapeHtml(formatWishTime(wish.created_at)) + '</div></li>'
+    }).join('') + '</ul>'
+  }
+
+  function renderWishes() {
+    if (!currentWishes) return
+    var container = document.getElementById('realtime-comments')
+    if (container) container.innerHTML = wishesHtml(currentWishes)
+  }
+
+  if (typeof window.fetch === 'function') {
+    var nativeFetch = window.fetch
+    window.fetch = function (input, init) {
+      var url = typeof input === 'string' ? input : (input && input.url) || ''
+      if (/admin-ajax\.php/.test(url)) {
+        var body = currentWishes
+          ? { success: true, data: { updated: true, html: wishesHtml(currentWishes) } }
+          : { success: false, data: { updated: false } }
+        return Promise.resolve(new Response(JSON.stringify(body), {
+          status: 200,
+          headers: { 'Content-Type': 'application/json' },
+        }))
+      }
+      return nativeFetch.apply(this, arguments)
+    }
+  }
+
   var DATA_TYPE = 'invitation:data'
   var READY_TYPE = 'invitation:ready'
 
@@ -414,7 +470,15 @@
 
   window.addEventListener('message', function (message) {
     if (message.source !== window.parent || !message.data) return
-    if (message.data.type === DATA_TYPE) applyData(message.data.payload || {})
+    if (message.data.type === DATA_TYPE) {
+      var payload = message.data.payload || {}
+      applyData(payload)
+      if (Array.isArray(payload.wishes)) {
+        currentWishes = payload.wishes
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', renderWishes, { once: true })
+        else renderWishes()
+      }
+    }
     if (message.data.type === 'invitation:rsvp-result') showRsvpResult(message.data.payload || {})
   })
 
