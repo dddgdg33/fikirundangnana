@@ -482,6 +482,36 @@
     if (message.data.type === 'invitation:rsvp-result') showRsvpResult(message.data.payload || {})
   })
 
+  // Some scraped template assets (mostly decorative frames/backgrounds under
+  // /templates/_shared/remote/) are not part of the repository. Instead of the
+  // browser's broken-image icon, swap them for a transparent placeholder with
+  // the same aspect ratio so the layout stays intact.
+  function hideBrokenImage(img) {
+    if (!img || img.tagName !== 'IMG' || /^data:/i.test(img.getAttribute('src') || '')) return
+    var w = parseInt(img.getAttribute('width'), 10) || img.width || 1
+    var h = parseInt(img.getAttribute('height'), 10) || img.height || 1
+    img.setAttribute('data-missing-asset', img.getAttribute('src') || '')
+    img.removeAttribute('srcset')
+    img.removeAttribute('sizes')
+    img.alt = ''
+    img.src = 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="' + w + '" height="' + h + '" viewBox="0 0 ' + w + ' ' + h + '"/>')
+  }
+
+  document.addEventListener('error', function (event) {
+    hideBrokenImage(event.target)
+  }, true)
+
+  function scanBrokenImages() {
+    var imgs = document.images
+    for (var k = 0; k < imgs.length; k++) {
+      var s = imgs[k].getAttribute('src') || ''
+      if (imgs[k].complete && imgs[k].naturalWidth === 0 && s && !/^data:|\.svg(\?|#|$)/i.test(s)) hideBrokenImage(imgs[k])
+    }
+  }
+  scanBrokenImages()
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', scanBrokenImages, { once: true })
+  window.addEventListener('load', scanBrokenImages, { once: true })
+
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bindRsvpForms, { once: true })
   else bindRsvpForms()
 
